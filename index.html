@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
+</head>
+
+<body>
+    <h1>Celebrity Dating Quiz</h1>
+
+    <form id="userInfo">
+        <label for="age">Age</label>
+        <input id="age" type="number" name="age">
+        <label for="favoriteColor">Favorite color</label>
+        <select id="colors" name="colors">
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Red">Red</option>
+        </select>
+        <label for="favoriteMusicGenre">Favorite Music Genre</label>
+        <select id="music" name="music">
+            <option value="Pop">Pop</option>
+            <option value="Rock">Rock</option>
+            <option value="Jazz">Jazz</option>
+            <option value="HipHop">Hip Hop</option>
+        </select>
+        <button type="submit">Who should I date!?</button>
+    </form>
+
+    <div id="TaylorSwift" class="hidden">
+        <p>Taylor Swift</p>
+    </div>
+        
+
+
+    <div id="JulioRodriguez" class="hidden">
+        <p>Julio Rodriguez</p>
+    </div>
+
+    <div id="Beyonce" class="hidden">
+        <p>Beyonce</p>
+    </div>
+
+    <div id="HarryStyles" class="hidden">
+        <p>Harry Styles</p>
+    </div>
+
+    <div id="error-message" class="hidden">
+        <p>You are too young sorry!</p>
+    </div>
+
+</body>
+
+</html>
