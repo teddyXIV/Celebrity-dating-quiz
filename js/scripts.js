@@ -3,6 +3,7 @@ function hideResults() {
     document.getElementById("JulioRodriguez").setAttribute("class", "hidden");
     document.getElementById("Beyonce").setAttribute("class", "hidden");
     document.getElementById("HarryStyles").setAttribute("class", "hidden");
+    document.getElementById("error-message").setAttribute("class", "hidden")
 }
 
 window.onload = function () {
@@ -21,8 +22,8 @@ window.onload = function () {
             document.getElementById("Beyonce").removeAttribute("class");
         } else if (age >=18 && age <= 70) {
             document.getElementById("HarryStyles").removeAttribute("class");
-        } else {
+        } else
             document.getElementById("error-message").removeAttribute("class");
-        }
-};
+        
+}
 }
